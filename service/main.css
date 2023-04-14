@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+
+body{
+    background-color: white;
+}
+service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.front{
+    display: block;
+    margin: 4px;
+    border-radius: 5px;
+    border-color: rgb(43, 43, 172);
+    border-width: 5px;
+    background-color: rgb(188, 188, 199);
+    height: 38vh;
+}   
+.front:hover{
+    transform: translateY(5px);
+    transition: 1.5 all ease-in;
+}
+.IMAGE{
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+.security{
+    display: block;
+    margin: 4px;
+    border-radius: 5px;
+    border-color: rgb(43, 43, 172);
+    border-width: 5px;
+    background-color: rgb(188, 188, 199);
+    height: 38vh;
+}
+.security:hover{
+    transform: translateY(5px);
+    transition: 1.5 all ease-in;
+}
+.python{
+    display: block;
+    margin: 4px;
+    border-radius: 5px;
+    border-color: rgb(43, 43, 172);
+    border-width: 5px;
+    background-color: rgb(188, 188, 199);
+    height: 38vh;
+}
+.python:hover{
+    transform: translateY(5px);
+    transition: 1.5 all ease-in;
+}
